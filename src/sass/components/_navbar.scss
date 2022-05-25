@@ -1,0 +1,26 @@
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  background: rgba(255, 255, 255, 0.16);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.navbar a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.navbar a:hover {
+  color: #000;
+}

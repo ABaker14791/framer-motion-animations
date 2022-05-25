@@ -1,5 +1,7 @@
-import "./App.css";
+import "./sass/main.scss";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
+// Pages
 import Home from "./pages";
 import DesignOne from "./pages/DesignOne.jsx";
 

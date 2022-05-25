@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const squareAnimations = () => {
+const SquareAnimations = () => {
   return (
     <div className="container">
       <h1 className="title">Animations</h1>
@@ -36,4 +36,4 @@ const squareAnimations = () => {
   );
 };
 
-export default squareAnimations;
+export default SquareAnimations;
