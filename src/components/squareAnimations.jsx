@@ -32,6 +32,32 @@ const SquareAnimations = () => {
       >
         Animate on the y axis
       </motion.p>
+      <div className="divider"></div>
+      <motion.div
+        className="square"
+        whileHover={{
+          scale: [1, 2, 2, 1, 1],
+          rotate: [0, 0, 270, 270, 0],
+          borderRadius: ["20%", "20%", "50%", "50%", "20%"],
+        }}
+      ></motion.div>
+      <p className="square-text">
+        Hover over the thing above to do some weird spinning sh*t
+      </p>
+      <div className="divider"></div>
+      <motion.div
+        className="square"
+        drag
+        dragConstraints={{
+          top: -50,
+          left: -50,
+          right: 50,
+          bottom: 50,
+        }}
+      ></motion.div>
+      <p className="square-text">
+        Click and drag this one around, its limited to 50px each way
+      </p>
     </div>
   );
 };
