@@ -58,6 +58,20 @@ const SquareAnimations = () => {
       <p className="square-text">
         Click and drag this one around, its limited to 50px each way
       </p>
+      <div className="divider"></div>
+      <motion.div
+        className="square"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      ></motion.div>
+      <div className="divider"></div>
+      <motion.div
+        className="square"
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+      ></motion.div>
     </div>
   );
 };
